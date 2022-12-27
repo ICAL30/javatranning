@@ -8,19 +8,19 @@ public class Factura {
     {
         System.out.println("Factura");
 
-        double IVA = 0.16;
         short mango = 5000;
         short arandanos = 5000;
         short fresas = 4000;
         short lechuga = 3000;
         short moras = 6000;
-
+Facturador facturarFruta=new FacturarFruta();
 //Obtener IVA
-        double PROD1 = mango*IVA+mango;
-        double PROD2 = arandanos*IVA+arandanos;
-        double PROD3 = fresas*IVA+fresas;
-        double PROD4 = lechuga*IVA+lechuga;
-        double PROD5 = moras*IVA+moras;
+        double PROD1 = facturarFruta.calcularPrecioConIVA(mango);
+        double PROD2 = facturarFruta.calcularPrecioConIVA(arandanos);
+        facturarFruta = new FacturarFrutaPeru();
+        double PROD3 = facturarFruta.calcularPrecioConIVA(fresas);
+        double PROD4 = facturarFruta.calcularPrecioConIVA(lechuga);
+        double PROD5 = facturarFruta.calcularPrecioConIVA(moras);
 
         System.out.println("El precio de los productos con IVA es:");
 //Precio de cada producto
