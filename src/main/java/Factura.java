@@ -10,7 +10,7 @@ public class Factura {
         short mango = 2500;
         short arandanos = 5000;
         short fresas = 4800;
-        short lechuga = 3000;
+        short lechuga = 3200;
         short moras = 6000;
 
 //Obtener IVA
@@ -29,10 +29,10 @@ public class Factura {
 
 //Precio de cada producto
 
-        System.out.println("\tMango:" + PROD1+ " COP");
-        System.out.println("\tArandanos:" + PROD2+ " COP");
-        System.out.println("\tFresas:" + PROD3+ " COP");
-        System.out.println("\tLechuga:" + PROD4+ " COP");
-        System.out.println("\tMoras :" + PROD5+ " COP");
+        System.out.println("\tMango:" +PROD1+ " COP");
+        System.out.println("\tArandanos:" +PROD2+ " COP");
+        System.out.println("\tFresas:" +PROD3+ " COP");
+        System.out.println("\tLechuga:" +PROD4+ " COP");
+        System.out.println("\tMoras :" +PROD5+ " COP");
     }
 }
