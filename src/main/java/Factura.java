@@ -16,14 +16,14 @@ public class Factura {
 //Obtener IVA
 
         Facturador facturarFruta=new FacturarFruta();
-        double PROD1 = facturarFruta.calcularPrecioConIVA(mango);
+        float PROD1 = facturarFruta.calcularPrecioConIVA(mango);
         facturarFruta = new FacturarFrutaArgentina();
-        double PROD2 = facturarFruta.calcularPrecioConIVA(arandanos);
+        float PROD2 = facturarFruta.calcularPrecioConIVA(arandanos);
         facturarFruta = new FacturarFrutaPeru();
-        double PROD3 = facturarFruta.calcularPrecioConIVA(fresas);
-        double PROD4 = facturarFruta.calcularPrecioConIVA(lechuga);
+        float PROD3 = facturarFruta.calcularPrecioConIVA(fresas);
+        float PROD4 = facturarFruta.calcularPrecioConIVA(lechuga);
         facturarFruta = new FacturarFrutaBrazil();
-        double PROD5 = facturarFruta.calcularPrecioConIVA(moras);
+        float PROD5 = facturarFruta.calcularPrecioConIVA(moras);
 
         System.out.println("\nEl precio de los productos con IVA es:\n");
 

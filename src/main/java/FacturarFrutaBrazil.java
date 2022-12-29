@@ -1,8 +1,8 @@
 public class FacturarFrutaBrazil implements Facturador {
 
-    private double IVA=0.18;
+    private float IVA=0.18f;
     @Override
-    public double calcularPrecioConIVA(short precio) {
+    public float calcularPrecioConIVA(short precio) {
       return precio*IVA+precio;
     }
 }

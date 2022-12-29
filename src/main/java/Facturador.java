@@ -1,4 +1,4 @@
 public interface Facturador {
 
-    double calcularPrecioConIVA(short precio);
+    float calcularPrecioConIVA(short precio);
 }
